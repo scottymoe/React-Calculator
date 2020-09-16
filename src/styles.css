@@ -1,0 +1,19 @@
+.result {
+  height: 19vh;
+  font-size: 6rem;
+  font-weight: 600;
+  /* To display the value at the bottom-right of the container */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+Button {
+  display: block;
+
+}
+
+Button:hover {
+  color: var(--color-light-white);
+  background-color: var(--color-tomato);
+}
